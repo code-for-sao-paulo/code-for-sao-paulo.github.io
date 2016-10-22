@@ -1,21 +1,25 @@
 body {
-  margin: .8rem;
+  padding: 1rem;
 
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   align-items: center;
+
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: #555;
 }
 
 main {
-  width: 50%;
+  width: 60%;
   height: 100%;
 }
 
 a {
-  color: black;
+  color: #E23C31;
 }
 
 a[target="_blank"]:after {
@@ -23,7 +27,10 @@ a[target="_blank"]:after {
 }
 
 .section {
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
+
+  border-left: .2rem solid #E23C31;
+  padding: .2rem 1rem
 }
 
 .section:last-child {
@@ -32,6 +39,7 @@ a[target="_blank"]:after {
 
 .section-header {
   font-weight: bold;
+  color: #333;
 }
 
 ul {
